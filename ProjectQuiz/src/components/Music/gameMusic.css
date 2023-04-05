@@ -1,0 +1,28 @@
+.musicDiv {
+  top: 15px;
+  left: 40px;
+  position: absolute;
+}
+
+.toggleMusic {
+  border-radius: 5px;
+  height: 35px;
+  width: 45px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+
+.toggleMusic img {
+  width: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .musicDiv {
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+}

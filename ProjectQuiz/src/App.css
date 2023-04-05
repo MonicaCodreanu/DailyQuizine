@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+}
+
+body {
+  background: url(/tile_background.png);
+  background-attachment: cover;
+  object-fit: cover;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  height: auto;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+}

@@ -1,0 +1,222 @@
+.start-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-wrapper h1 {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  width: 800px;
+  height: 600px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #2a5081b4;
+}
+.startHighscoreWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 350px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.startInputForm form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 10px;
+}
+
+.startSubmitButton {
+  align-self: center;
+  width: 70px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  color: black !important;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 3px 3px 0px 0px;
+  border-radius: 3px;
+  transition: all 0.1s ease-in-out;
+}
+
+.startSubmitButton:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+
+.startSubmitButtonAnimate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: rgb(107, 255, 114);
+  color: black !important;
+  font-weight: bold;
+  box-shadow: 3px 3px 0px 0px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.startSubmitButtonAnimate:active {
+  pointer-events: none;
+}
+
+.startStartButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  border: 0;
+  border-bottom: 2px solid rgb(173, 173, 173);
+  outline: 0;
+  padding: 0.3rem;
+  background: transparent;
+  color: white;
+  font-size: 1.1rem;
+  width: 170px;
+  margin-bottom: 0.3rem;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.submitCheckmarkImg {
+  width: 20px;
+  color: rgb(96, 214, 96);
+}
+
+.startInputEl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.startSubmitAndBtn {
+  display: flex;
+  justify-content: center;
+  transition: all 2s ease-in-out;
+}
+
+.startInputHelp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.logotypeStart {
+  width: 300px;
+}
+
+.highscore {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+  gap: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.scoreWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.highscore li {
+  text-align: left;
+}
+.highscorePoints li {
+  list-style-type: none;
+  text-align: right;
+}
+
+.highscoreNamePoints {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem 0.5rem 2.5rem;
+  border-bottom: 1px solid white;
+  margin: 1rem;
+}
+
+/* CSS */
+.start a {
+  background-color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  width: 170px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 5px 5px 0px 0px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out, scale 0.2s ease-in-out;
+}
+
+.start a:hover {
+  scale: 1.02;
+}
+
+.start a:active {
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px 0px 0px;
+}
+
+.start a:visited {
+  color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .startHighscoreWrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .main {
+    height: auto;
+    width: auto;
+  }
+}

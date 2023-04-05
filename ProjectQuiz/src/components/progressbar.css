@@ -1,0 +1,26 @@
+.container-progressbar {
+  height: 20px;
+  width: 820px;
+  background-color: #ffffffbb;
+  border-radius: 5px;
+}
+
+.filler {
+  height: 20px;
+  background-color: #ffbb00;
+  border-radius: 5px;
+  text-align: "right";
+  transition: all 0.14s linear;
+}
+
+.label {
+  padding: 5px;
+  color: white;
+  font-weight: "bold";
+}
+
+@media only screen and (max-width: 800px) {
+  .container-progressbar {
+    width: auto;
+  }
+}
